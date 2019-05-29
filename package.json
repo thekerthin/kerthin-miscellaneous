@@ -1,0 +1,18 @@
+{
+  "name": "kerthin-miscellaneous",
+  "version": "1.0.0",
+  "repository": "https://github.com/thekerthin/kerthin-miscellaneous.git",
+  "author": "sebastiandelaroche <sebastian.delaroche.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.0.2",
+    "chai": "^4.2.0",
+    "lerna": "^3.14.1",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
