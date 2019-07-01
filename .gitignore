@@ -26,3 +26,5 @@ node_modules/
 lerna-debug.log
 
 dist
+
+.DS_Store

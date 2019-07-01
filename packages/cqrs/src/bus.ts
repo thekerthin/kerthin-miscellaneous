@@ -7,6 +7,7 @@ import { ICommandDto } from './interfaces/commands/command-dto-interface';
 import { IEventDto } from './interfaces/events/event-dto.interface';
 import { IBusAdapter } from './interfaces/bus/bus-adapter.interface';
 
+// TODO: implement adapter steps
 export abstract class Bus {
 
   protected handlers = new Map<string, Handler>();

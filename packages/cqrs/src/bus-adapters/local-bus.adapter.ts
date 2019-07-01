@@ -23,7 +23,7 @@ export class LocalBusAdapter implements IBusAdapter {
     if (!handler) {
       // TODO: pending add a error handler class
       // throw new CommandHandlerNotFoundException();
-      throw new Error();
+      throw new Error('The handler is not define.');
     }
 
     return handler.handle(data);

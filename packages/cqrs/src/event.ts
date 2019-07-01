@@ -7,6 +7,6 @@ export abstract class Event<T extends IEventDto> implements IEvent<T> {
 
     constructor(
         readonly data: T,
-        readonly cid: string
+        readonly cid?: string
     ) { }
 }
