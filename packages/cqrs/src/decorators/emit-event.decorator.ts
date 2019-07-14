@@ -15,7 +15,7 @@ export function EmitEvent({ context, action }) {
       const result = original.apply(this, args);
 
       const eventData = {
-        context: <string>context, action: <string>action, data: <any>args,
+        context: <string>context, action: <string>action, data: <any>args[0],
       };
 
       await this[eventBusPropName].publish(eventData);
