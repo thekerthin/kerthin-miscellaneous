@@ -5,10 +5,10 @@ export function EmitEvent({ context, action }) {
     const original = descriptor.value;
 
     descriptor.value = async function (...args: any[]) {
-      const eventBus = <EventBus><unknown>Object.keys(this)
+      const eventBusPropName = Object.keys(this)
         .find(key => this[key] instanceof EventBus);
 
-      if (!eventBus) {
+      if (!eventBusPropName) {
         throw new Error("If you wish to use '@EmitEvent' decorator you should inject 'EventBus' in your class");
       }
 
@@ -18,7 +18,7 @@ export function EmitEvent({ context, action }) {
         context: <string>context, action: <string>action, data: <any>args,
       };
 
-      await eventBus.publish(eventData);
+      await this[eventBusPropName].publish(eventData);
 
       return result;
     };
