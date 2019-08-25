@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json -c ../../tslint.json",
-    "test": "mocha -r 'tests/index.spec.js' tests/**/**/*.spec.ts --exit"
+    "test": "mocha -r 'src/index.spec.js' src/**/**/*.spec.ts --exit"
   },
   "dependencies": {
     "@addapptables/bus": "^1.1.3",

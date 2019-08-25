@@ -1,7 +1,7 @@
 import { Test } from '@nestjs/testing'
 import * as chai from 'chai';
 
-import { CqrsModule, CommandBus, EventBus } from '../../src';
+import { CqrsModule, CommandBus, EventBus } from '.';
 
 describe('load CqrsModule', () => {
 

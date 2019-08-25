@@ -1,4 +1,4 @@
-import { Event, IEventDto } from '../../src';
+import { Event, IEventDto } from '../../';
 
 export class DataEvent implements IEventDto {
   id: any;

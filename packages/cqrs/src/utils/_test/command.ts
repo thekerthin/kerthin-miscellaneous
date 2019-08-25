@@ -1,4 +1,4 @@
-import { Command, ICommandDto } from '../../src';
+import { Command, ICommandDto } from '../../';
 
 export class DataCommand implements ICommandDto {
   id: any;

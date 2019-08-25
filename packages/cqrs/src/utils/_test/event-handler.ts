@@ -1,4 +1,4 @@
-import { EventHandler, IEventHandler } from '../../src';
+import { EventHandler, IEventHandler } from '../../';
 import { TestEvent } from './event';
 
 @EventHandler(TestEvent)

@@ -2,12 +2,11 @@ import { Test } from '@nestjs/testing';
 import * as chai from 'chai';
 import * as sinon from 'sinon';
 
-import { CqrsModule, CommandBus, LocalBusAdapter } from '../../src';
-import { TestCommandHandler } from '../utils/command-handler';
-import { TestCommand } from '../utils/command';
+import { CqrsModule, CommandBus, LocalBusAdapter } from './';
+import { TestCommand } from './utils/_test/command';
+import { TestCommandHandler } from './utils/_test/command-handler';
 
 describe('command bus', () => {
-
   let _module;
   let commandBus: CommandBus;
 
@@ -28,14 +27,18 @@ describe('command bus', () => {
       .init();
   });
 
-  // it('should register command handlers', () => {
-  //   const commandBus = _module.get(CommandBus);
-  //   console.log('commandBus', commandBus);
-  // });
+  it('should identify command handle registered', () => {
+    const commandBus = _module.get(CommandBus);
+    const handleTarget = commandBus.handlers.get(TestCommand.name);
 
-  // it('should set an adapter', () => { });
+    chai.expect(handleTarget.constructor.name).to.be.equal(TestCommandHandler.name);
+  });
 
-  // it('should init command bus', () => { });
+  it('should identify adapter handle registered', () => {
+    const commandBus = _module.get(CommandBus);
+
+    chai.expect(commandBus.adapter.constructor.name).to.be.equal(LocalBusAdapter.name);
+  });
 
   it('should publish a command', () => {
     const testCommandData: TestCommand = new TestCommand({ id: '12345', name: 'Test' });
@@ -46,5 +49,4 @@ describe('command bus', () => {
 
     commandBus.publish(testCommandData);
   });
-
 });
