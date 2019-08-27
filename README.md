@@ -9,5 +9,5 @@ $ lerna run build
 
 ## The Kerthin Packages
 
-[@kerthin/cqrs](https://github.com/thekerthin/kerthin-miscellaneous/tree/develop/packages/cqrs)
-[@kerthin/utils](https://github.com/thekerthin/kerthin-miscellaneous/tree/develop/packages/utils)
+[@kerthin/cqrs](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/cqrs)
+[@kerthin/utils](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/utils)
