@@ -1,0 +1,25 @@
+{
+  "name": "@kerthin/utils",
+  "version": "0.0.0",
+  "description": "Kerthin utils",
+  "author": "sebastiandelaroche <sebastian.delaroche.dev@gmail.com>",
+  "homepage": "https://github.com/thekerthin/kerthin-miscellaneous#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekerthin/kerthin-miscellaneous.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json -c ../../tslint.json",
+    "test": "mocha -r 'src/index.spec.js' src/**/**/*.spec.ts --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/thekerthin/kerthin-miscellaneous/issues"
+  },
+  "dependencies": {
+    "glob": "^7.1.4",
+    "ramda": "^0.26.1"
+  }
+}
