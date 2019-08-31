@@ -14,3 +14,5 @@ $ lerna run build
 [@kerthin/utils](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/utils)
 
 [@kerthin/logger](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/logger)
+
+[@kerthin/bus](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/bus)
