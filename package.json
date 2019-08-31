@@ -5,15 +5,15 @@
   "author": "sebastiandelaroche <sebastian.delaroche.dev@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^12.0.2",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.3",
     "chai": "^4.2.0",
-    "lerna": "^3.14.1",
-    "mocha": "^6.1.4",
-    "sinon": "^7.3.2",
-    "ts-node": "^8.2.0",
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5"
+    "lerna": "^3.16.4",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.19.0",
+    "typescript": "^3.6.2"
   }
 }
