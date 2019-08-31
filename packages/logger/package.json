@@ -1,0 +1,29 @@
+{
+  "name": "@kerthin/logger",
+  "version": "0.0.0",
+  "description": "Kerthin logger",
+  "author": "sebastiandelaroche <sebastian.delaroche.dev@gmail.com>",
+  "homepage": "https://github.com/thekerthin/kerthin-miscellaneous#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekerthin/kerthin-miscellaneous.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json -c ../../tslint.json",
+    "test": "mocha -r 'src/index.spec.js' src/**/**/*.spec.ts --exit"
+  },
+  "dependencies": {
+    "@nestjs/common": "^6.2.4",
+    "reflect-metadata": "^0.1.13"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.2.4",
+    "reflect-metadata": "^0.1.13"
+  },
+  "bugs": {
+    "url": "https://github.com/thekerthin/kerthin-miscellaneous/issues"
+  }
+}

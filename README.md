@@ -10,4 +10,7 @@ $ lerna run build
 ## The Kerthin Packages
 
 [@kerthin/cqrs](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/cqrs)
+
 [@kerthin/utils](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/utils)
+
+[@kerthin/logger](https://github.com/thekerthin/kerthin-miscellaneous/tree/master/packages/logger)
