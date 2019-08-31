@@ -19,7 +19,7 @@
     "test": "mocha -r 'src/index.spec.js' src/**/**/*.spec.ts --exit"
   },
   "dependencies": {
-    "@addapptables/bus": "^1.1.3",
+    "@kerthin/bus": "^0.0.0",
     "@nestjs/common": "^6.2.4",
     "@nestjs/core": "^6.2.4",
     "reflect-metadata": "^0.1.13",

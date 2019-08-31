@@ -1,5 +1,5 @@
 import { Type } from '@nestjs/common';
-import { rabbitmqCreateBus as createBus } from '@addapptables/bus';
+import { rabbitmqCreateBus as createBus } from '@kerthin/bus';
 
 import { IBusAdapter } from '../interfaces/bus/bus-adapter.interface';
 import { ICommand } from '../interfaces/commands/command.interface';
