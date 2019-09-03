@@ -19,7 +19,9 @@ import {
   toPaginatedResult,
   applyPaginationDefaults,
   isEmptyOrNil,
-  isNotEmptyOrNil
+  isNotEmptyOrNil,
+  encrypt,
+  decrypt
 } from '@kerthin/utils';
 ```
 
