@@ -20,6 +20,10 @@
   },
   "dependencies": {
     "glob": "^7.1.4",
-    "ramda": "^0.26.1"
+    "ramda": "^0.26.1",
+    "@nestjs/common": "^6.2.4"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^6.2.4"
   }
 }

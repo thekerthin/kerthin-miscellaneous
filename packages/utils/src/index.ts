@@ -4,3 +4,4 @@ export * from './pagination';
 export * from './http';
 export * from './interfaces';
 export * from './crypto';
+export * from './errors';
