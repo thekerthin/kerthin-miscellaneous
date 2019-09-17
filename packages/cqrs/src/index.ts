@@ -1,5 +1,7 @@
 import 'reflect-metadata';
 
+import '../index';
+
 export { AggregateRoot } from './aggregate-root';
 export { Command } from './command';
 export { Event } from './event';
