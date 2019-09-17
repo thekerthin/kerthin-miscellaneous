@@ -1,5 +1,3 @@
-import '../index';
-
 export * from './validations';
 export * from './files';
 export * from './pagination';
