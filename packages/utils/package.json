@@ -21,5 +21,6 @@
   "dependencies": {
     "glob": "^7.1.4",
     "ramda": "^0.26.1"
-  }
+  },
+  "gitHead": "05a407c1d23d7ffc740cff3541ea36148a0f9167"
 }
