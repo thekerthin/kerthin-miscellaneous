@@ -12,8 +12,9 @@ $ npm i lerna@3.14.1 -g
 
 ```sh
 $ yarn
-$ lerna  bootstrap
-$ lerna link
+$ lerna bootstrap
+$ lerna run build
+$ lerna exec yarn link
 ```
 
 ## Internal commands
