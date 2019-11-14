@@ -1,5 +1,22 @@
 # kerthin-miscellaneous
+
 This project is using [lerna](https://github.com/lerna/lerna) to manage all The Kerthin packages, so some common scripts are:
+
+## Dependencies
+
+```sh
+$ npm i lerna@3.14.1 -g
+```
+
+## Setup
+
+```sh
+$ yarn
+$ lerna  bootstrap
+$ lerna link
+```
+
+## Internal commands
 
 ```sh
 $ lerna run lint
